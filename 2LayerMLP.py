@@ -23,7 +23,7 @@ split_ratio = 0.7
 eta = 0.3
 epochs = 50
 
-data = pd.read_excel('data.xlsx', header=None)
+data = pd.read_excel('Mackey_Glass.xlsx', header=None)
 data = np.array(data)
 
 min = np.min(data)
